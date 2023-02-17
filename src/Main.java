@@ -11,7 +11,7 @@ public class Main {
                             || expressaoEmChar[i] == '/' || expressaoEmChar[i] == '*'){
                         operadores.add(String.valueOf(expressaoEmChar[i]));
                     }else if ((i < expressaoEmChar.length-1) && (expressaoEmChar[i+1] == '.')){
-                            valores.add(String.valueOf(expressaoEmChar[i])+String.valueOf(expressaoEmChar[i+1])+String.valueOf(expressaoEmChar[i+2]));
+                            valores.add(expressaoEmChar[i] +String.valueOf(expressaoEmChar[i+1])+ expressaoEmChar[i + 2]);
                             i+=2;
                         } else{
                         valores.add(String.valueOf(expressaoEmChar[i]));

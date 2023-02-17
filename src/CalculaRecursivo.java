@@ -22,9 +22,7 @@ public class CalculaRecursivo {
             result = Double.parseDouble(valores.get(j)) - Double.parseDouble(valores.get(j + 1));
         }
         operadores.remove(j);
-        System.out.println(valores);
         valores.add(j, String.valueOf(result));
-        System.out.println(valores);
         valores.remove(j+1);
         valores.remove(j+1);
 

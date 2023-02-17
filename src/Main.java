@@ -17,8 +17,6 @@ public class Main {
                         valores.add(String.valueOf(expressaoEmChar[i]));
                     }
                     }
-                System.out.println("Operadores: "+operadores);
-                System.out.println("Valores: "+valores);
                 CalculaRecursivo calculaRecursivo = new CalculaRecursivo();
                 System.out.println("Expressão: "+expressao + "\nResultado: "+calculaRecursivo.calculaRecursivo(operadores,valores));
 
